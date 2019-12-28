@@ -129,6 +129,9 @@ if (myLuckyNumber > 1 && myLuckyNumber < 10) {
   console.log('finally');
 }
 
+// ternary operator
+const isLuckyDay = myLuckyNumber === 7 ? true : false;
+
 /**
  * JavaScript Functions
  */
