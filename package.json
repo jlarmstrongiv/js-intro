@@ -1,0 +1,17 @@
+{
+  "name": "js-intro",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node --no-warnings --experimental-modules --es-module-specifier-resolution=node .",
+    "watch": "npx nodemon src/ -q --exec 'npm run --silent start'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "delay": "^4.3.0",
+    "fs-extra": "^8.1.0"
+  }
+}
