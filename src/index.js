@@ -81,6 +81,20 @@ console.log(groceryList[1]);
 groceryList[1] = 'tortillas';
 console.log(groceryList[1]);
 
+// adding and removing items from arrays
+// add item to end
+groceryList.push('SO MUCH CHEESE');
+console.log(groceryList);
+// remove item from end
+groceryList.pop();
+console.log(groceryList);
+// add item to beginning
+groceryList.unshift('plates');
+console.log(groceryList);
+// remove item from beginning
+groceryList.shift();
+console.log(groceryList);
+
 // Complex Data Structures
 const books = [
   {
@@ -93,6 +107,23 @@ const books = [
   },
 ];
 console.log('Nested rating', books[0].ratings[0]);
+
+// JSON is valid JavaScript
+/* prettier-ignore-start */
+const booksJson = [
+  {
+    // prettier-ignore
+    "title": "Crime and Punishment",
+    // prettier-ignore
+    "ratings": [5, 4, 5]
+  },
+  {
+    // prettier-ignore
+    "title": "Programming is Hard",
+    // prettier-ignore
+    "ratings": [5, 4, 3]
+  },
+];
 
 /**
  * JavaScript Math
